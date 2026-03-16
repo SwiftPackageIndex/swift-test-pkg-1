@@ -12,7 +12,7 @@ let package = Package(
             targets: ["swift-test-pkg-1"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/finestructure/swift-test-pkg-2.git",
+        .package(url: "https://github.com/SwiftPackageIndex/swift-test-pkg-2.git",
                  from: "1.0.0")
     ],
     targets: [
